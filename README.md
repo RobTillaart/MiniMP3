@@ -1,15 +1,15 @@
 
-[![Arduino CI](https://github.com/RobTillaart/MINIMP3/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci)
-[![Arduino-lint](https://github.com/RobTillaart/MINIMP3/actions/workflows/arduino-lint.yml/badge.svg)](https://github.com/RobTillaart/MINIMP3/actions/workflows/arduino-lint.yml)
-[![JSON check](https://github.com/RobTillaart/MINIMP3/actions/workflows/jsoncheck.yml/badge.svg)](https://github.com/RobTillaart/MINIMP3/actions/workflows/jsoncheck.yml)
-[![GitHub issues](https://img.shields.io/github/issues/RobTillaart/MINIMP3.svg)](https://github.com/RobTillaart/MINIMP3/issues)
+[![Arduino CI](https://github.com/RobTillaart/MiniMP3/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci)
+[![Arduino-lint](https://github.com/RobTillaart/MiniMP3/actions/workflows/arduino-lint.yml/badge.svg)](https://github.com/RobTillaart/MiniMP3/actions/workflows/arduino-lint.yml)
+[![JSON check](https://github.com/RobTillaart/MiniMP3/actions/workflows/jsoncheck.yml/badge.svg)](https://github.com/RobTillaart/MiniMP3/actions/workflows/jsoncheck.yml)
+[![GitHub issues](https://img.shields.io/github/issues/RobTillaart/MiniMP3.svg)](https://github.com/RobTillaart/MiniMP3/issues)
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/RobTillaart/MINIMP3/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/RobTillaart/MINIMP3.svg?maxAge=3600)](https://github.com/RobTillaart/MINIMP3/releases)
-[![PlatformIO Registry](https://badges.registry.platformio.org/packages/robtillaart/library/MINIMP3.svg)](https://registry.platformio.org/libraries/robtillaart/MINIMP3)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/RobTillaart/MiniMP3/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/RobTillaart/MiniMP3.svg?maxAge=3600)](https://github.com/RobTillaart/MiniMP3/releases)
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/robtillaart/library/MiniMP3.svg)](https://registry.platformio.org/libraries/robtillaart/MiniMP3)
 
 
-# MINIMP3 Library
+# MiniMP3 Library
 
 Arduino library for DFRobotics MP3 player and compatibles.
 
@@ -18,7 +18,7 @@ Arduino library for DFRobotics MP3 player and compatibles.
 
 **Experimental**
 
-MINIMP3 is an Arduino library to control the DFRobotics MP3 player and compatibles.
+MiniMP3 is an Arduino library to control the DFRobotics MP3 player and compatibles.
 Goal is to have basic control of the device via hardware Serial or software Serial.
 
 If you need complete control including all kinds of feedback events like
@@ -43,7 +43,7 @@ This library is work in progress.
             +--+------+--+
 
 When connecting to a 5V MCU, you need to add a 1K resistor between the
-Serial TX and RX as the MINIMP3 is 3V3. Otherwise a big HUM.
+Serial TX and RX as the MiniMP3 is 3V3. Otherwise a big HUM.
 ```
 
 
@@ -60,7 +60,7 @@ Serial TX and RX as the MINIMP3 is 3V3. Otherwise a big HUM.
 
 #### Constructor
 
-- **MINIMP3(Stream \* stream = &Serial)** Can be used with software or hardware Serial.
+- **MiniMP3(Stream \* stream = &Serial)** Can be used with software or hardware Serial.
 Default stream is Serial.
 - **void reset()** reset the player.
 - **void lowPower()** set the player in low power mode.
@@ -118,6 +118,8 @@ Default stream is Serial.
   - implement randomizer
 - add unit tests (possible?)
 - get current track
+- last track
+- last mode
 
 #### Wont
 
