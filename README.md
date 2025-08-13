@@ -50,6 +50,7 @@ Serial TX and RX as the MiniMP3 is 3V3. Otherwise a big HUM.
 ### Related
 
 - https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299  (extended library)
+- https://www.dfrobot.com/product-1121.html
 
 
 ## Interface
